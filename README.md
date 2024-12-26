@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# Dynamic Report Dashboard Interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+
+The **Dynamic Report Dashboard Interface** is a web application designed to manage and display various CSV reports efficiently. The dashboard allows users to dynamically load CSV files, group reports based on user-created tags or dates, and view them in an organized, user-friendly grid format. The interface is highly responsive, ensuring an optimal experience across both desktop and mobile devices.
+
+## Features
+
+- **Dynamic CSV Loading**: Automatically load CSV files from the specified folder structure and display them within tabs.
+- **Grid View**: Display CSV contents in a structured, paginated, and sortable table format.
+- **Grouping and Filtering**: Group reports by date and tags, with expandable and collapsible sections for better organization.
+- **Paginated Report View**: Support pagination for large CSV files, allowing users to choose their desired page size (20, 50, 100, 1000, or All).
+- **File Upload Mechanism**: Dynamically upload new CSV files to the dashboard.
+- **Customizable UI**: Users can customize tab and tag colors for a personalized interface.
+- **Expand/Collapse Functionality**: Grouped reports can be expanded or collapsed to keep the UI clean.
+
+## Technical Specifications
+
+- **Frontend Framework**: React.js
+- **Styling**: CSS (using modules or styled-components)
+- **Responsive Design**: Mobile-first design for optimal user experience on both desktop and mobile.
+
+
+
+# Getting Started Dynamic Report Dashboard Interface
 
 ## Available Scripts
 
@@ -28,43 +50,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
