@@ -1,5 +1,9 @@
 # Dynamic Report Dashboard Interface
 
+## Project Demo
+
+Demo Recording:  **https://drive.google.com/file/d/10-Thlfkr7nBDPjKgoNfCxCMZj5HXhXJ4/view?usp=drive_link**
+
 ## Project Overview
 
 The **Dynamic Report Dashboard Interface** is a web application designed to manage and display various CSV reports efficiently. The dashboard allows users to dynamically load CSV files, group reports based on user-created tags or dates, and view them in an organized, user-friendly grid format. The interface is highly responsive, ensuring an optimal experience across both desktop and mobile devices.
